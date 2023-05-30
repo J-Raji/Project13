@@ -7,11 +7,13 @@
 ![dynamic-assignments branch](./Images/dynamic.png)
 
 [] create a folder with dynamic-assignments
+
 `mkdir dynamic-assignments`
 
 `cd dynamic-assignments` 
 
 []CLone 
+
 `git clone git@github.com:J-Raji/Project-12.git` 
 
 []create file env-vars.yml 
@@ -43,6 +45,7 @@
 `cd ..`
 
 [] Create env-vars directory and 
+
 `mkdir env-vars` 
 
 `cd env-vars` 
@@ -134,7 +137,6 @@ git switch roles-feature
 
 `cd ansible-config-mgt/roles/webservers/README.md` 
 
-
 []Read the README.md file and insert the role configuration to use the correct credentials to the tooling website
 
 `sudo vi README.md`
@@ -144,10 +146,6 @@ admin password d84735f4243e4faf8ea684558518804e
 
 []Update changes to github
 
-
-
-
-
 `git config --global --edit`
 
 []Uncomment 
@@ -155,9 +153,8 @@ admin password d84735f4243e4faf8ea684558518804e
 #name=ubuntu
 #email=ubuntu@ip-172-31-3-169.us-east-2.comput.internal
 
-
-
 After,
+
 git commit --amend --reset-author
 
 []Create a pull request amd merge
@@ -195,9 +192,11 @@ git commit --amend --reset-author
 
 ``
 []Update loadbalancer.yml (env-vars.yml)
+
 `cd ansile-config-mgt/dynamic-assignments`
 
 [] In the env-vard directory
+
 `cd env-vars`
 
 []Update env-vars/uat.yml
